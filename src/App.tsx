@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Product from './components/Product'
 import { GlobalCss } from './styles'
 import ProductsList from './components/ProductsList'
+import Footer from './components/Footer'
 
 const rotas = createBrowserRouter([
   {
@@ -23,6 +24,7 @@ function App() {
       <GlobalCss />
       <Header />
       <RouterProvider router={rotas} />
+      <Footer />
     </>
   )
 }
