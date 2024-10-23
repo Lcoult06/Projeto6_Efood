@@ -29,12 +29,8 @@ export const HeaderBar = styled.header`
   }
 `
 
-export const Link = styled.ul`
+export const Links = styled.ul`
   display: flex;
-`
-
-export const LinkItem = styled.li`
-  // margin-right: 16px;
 `
 
 export const LinkCart = styled.a`
